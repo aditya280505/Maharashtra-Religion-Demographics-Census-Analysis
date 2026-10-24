@@ -1,93 +1,113 @@
-# Maharashtra Religion Demographics & Census Trend Analysis
+# 📊 Maharashtra Religion Demographics & Census Trend Analysis
 
-## 📊 Project Overview
+An interactive **Power BI dashboard** analyzing Maharashtra's population demographics, religion-wise population distribution, and Census trends from 2001 to 2011.
 
-This project analyzes Maharashtra's population demographics using Census data from 2001 and 2011. It presents population growth, rural and urban population distribution, and religion-wise population trends through an interactive Power BI dashboard.
+## 📌 Project Overview
+
+This project analyzes Maharashtra Census data from 2001 and 2011 to explore population growth, rural–urban distribution, and religion-wise demographic changes.
+
+The Power BI dashboard presents key statistics and demographic insights through interactive charts, KPI cards, and comparative visualizations.
 
 ## 🎯 Project Objectives
 
 * Analyze Maharashtra's population growth between 2001 and 2011.
-* Compare rural and urban population distributions.
+* Compare rural and urban population trends.
 * Explore religion-wise population distribution.
-* Examine changes in population and population share across religions.
-* Present demographic insights using interactive visualizations.
+* Compare religion-wise population shares across Census years.
+* Present demographic insights through interactive Power BI visualizations.
 
-## 🛠️ Tools and Technologies
+## 🛠️ Tools & Technologies
 
-* **Microsoft Power BI** — Dashboard development and visualization
+* **Power BI Desktop** — Dashboard development and visualization
 * **Power Query** — Data cleaning and transformation
-* **DAX** — Calculated measures and dynamic analysis
-* **CSV** — Data storage and input files
+* **DAX** — Measures and calculations
+* **CSV** — Census datasets
+* **Python / Jupyter Notebook** — Census comparison analysis, where included in the project
 
-## 📈 Dashboard Pages
+## 📸 Dashboard Screenshots
 
 ### 1. Maharashtra Overview
 
-* Population comparison for 2001 and 2011
-* Total population increase
-* Overall population growth percentage
-* Rural and urban population comparison
+Overview of Maharashtra's population, population growth, and rural–urban distribution.
+
+![Maharashtra Overview](screenshots/maharashtra_overview.png)
 
 ### 2. Religion Analysis
 
-* Religion-wise population distribution
-* Population share by religion
-* Population change between 2001 and 2011
-* Religion-wise population growth
+Religion-wise population comparison, population distribution, and changes between 2001 and 2011.
+
+![Religion Analysis](screenshots/religion_analysis.png)
 
 ### 3. Demographic Insights
 
-* Rural and urban population share shifts
-* Religion-wise population share changes
-* Population growth rate comparison by area
-* Key demographic findings
+Highlights demographic changes, rural–urban population shifts, and religion-wise population share changes.
 
-## 🔍 Key Population Statistics
+![Demographic Insights](screenshots/demographic_insights.png)
+
+## 📈 Key Findings
 
 | Metric                        |       Value |
 | ----------------------------- | ----------: |
-| Maharashtra Population (2001) |  96,878,627 |
-| Maharashtra Population (2011) | 112,374,333 |
-| Population Increase           |  15,495,706 |
-| Population Growth             |      15.99% |
-| Rural Population (2011)       |  61,556,074 |
-| Urban Population (2011)       |  50,818,259 |
+| Population in 2001            |  96,878,627 |
+| Population in 2011            | 112,374,333 |
+| Total Population Increase     |  15,495,706 |
+| Population Growth (2001–2011) |      15.99% |
+| Rural Population in 2011      |  61,556,074 |
+| Urban Population in 2011      |  50,818,259 |
+| Urban Population Increase     |   9,717,279 |
 
-## 📁 Project Structure
+*Source: Maharashtra Census data for 2001 and 2011.*
+
+## 📂 Project Structure
 
 ```text
 Maharashtra-Religion-Demographics-Census-Analysis/
-├── README.md
-├── dashboard/
-│   └── Maharashtra_Religion_Demographics.pbix
+│
 ├── data/
 │   ├── census_2001_cleaned.csv
 │   ├── census_2011_cleaned.csv
 │   ├── maharashtra_population_comparison.csv
 │   └── religion_comparison_2001_2011.csv
+│
+├── notebooks/
+│   └── 03_census_comparison.ipynb
+│
 ├── screenshots/
 │   ├── maharashtra_overview.png
 │   ├── religion_analysis.png
 │   └── demographic_insights.png
-└── docs/
-    └── data_dictionary.md
+│
+├── dashboard/
+│   └── Maharashtra_Religion_Demographics.pbix
+│
+├── docs/
+│   └── data_dictionary.md
+│
+└── README.md
 ```
 
-## ▶️ How to Explore the Project
+*Note: The folder structure above is illustrative. Make sure it matches the actual files in your repository.*
 
-1. Download the Power BI `.pbix` file from the `dashboard` folder.
-2. Open it using Microsoft Power BI Desktop.
-3. Explore the dashboard pages and interactive visuals.
-4. Refer to the `data` folder for the processed CSV files.
+## 🚀 How to Use
 
-## 📚 Data
+1. Browse the screenshots above to preview the dashboard.
+2. Open the repository's `.pbix` file.
+3. Download the file and open it using **Microsoft Power BI Desktop**.
+4. Explore the available dashboard pages, charts, filters, and demographic comparisons.
+5. Review the CSV datasets and notebooks, if included, to understand the analysis.
 
-The analysis uses Maharashtra Census population data for 2001 and 2011. Refer to the original Census publications or the relevant official government data portal for source data and definitions.
+> **Important:** GitHub does not display `.pbix` files as interactive reports. Download the file and open it in Power BI Desktop to explore the dashboard.
 
 ## 👨‍💻 Author
 
 **Aditya Pravin Borgaonkar**
 
-B.Tech — Computer Science Engineering (Artificial Intelligence and Analytics)
-
+B.Tech — Computer Science Engineering (Artificial Intelligence & Analytics)
 Pune, Maharashtra, India
+
+* **GitHub:** [@aditya280505](https://github.com/aditya280505)
+* **Project Repository:** [Maharashtra Religion Demographics & Census Trend Analysis](https://github.com/aditya280505/Maharashtra-Religion-Demographics-Census-Analysis)
+
+---
+
+⭐ If you find this project useful, consider starring the repository.
